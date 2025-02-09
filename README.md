@@ -1,5 +1,5 @@
 # deep_learning-challenge
-## Overview 
+
 The following module allows us to use our knowledge of machine learning and neural networks to effectively create a binary classifier. This classifier shall be utilised to assess applicants with funding and the possibility of success on their ventures. 
 
 ## Report 
