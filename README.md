@@ -2,10 +2,10 @@
 
 The following module allows us to use our knowledge of machine learning and neural networks to effectively create a binary classifier. This classifier shall be utilised to assess applicants with funding and the possibility of success on their ventures. 
 
-## Report 
-# Overview
+# Report 
+## Overview
 Alphabet Soup aims to improve funding decisions through the use of machine learning, in predicting an organization's success. The project specifically implemented a binary classifer using TensorFlow. 
-# Results 
+## Results 
 Data Preprocessing
 * Target Variable: IS_SUCCESSFUL
 * Feature Variables: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
@@ -21,7 +21,7 @@ Optimization Attempts
 * The third image shows the second attempt where I changed the output layer activation to relu, accuracy decreased to 72.9%
 * The fourth image is the third attempt, where I changed the epoch to 100, accuracy remained around 73.2%.
 
-# Summary 
+## Summary 
 The changes made did not significantly improve accuracy. A future recommendation would be to use different machine learning models such as Random Forest, which could increase accuracy of our findings.  
 
 
