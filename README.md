@@ -6,11 +6,12 @@ The following module allows us to use our knowledge of machine learning and neur
 ## Overview
 Alphabet Soup aims to improve funding decisions through the use of machine learning, in predicting an organization's success. The project specifically implemented a binary classifer using TensorFlow. 
 ## Results 
-Data Preprocessing
+### Data Preprocessing
 * Target Variable: IS_SUCCESSFUL
 * Feature Variables: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
 * Removed Variables: EIN and NAME
-Compiling, Training, and Evaluating the Model
+
+### Compiling, Training, and Evaluating the Model
 * Three hidden layers, with 80, 30 and 15 neurons respectively.
 * Used relu activation.
 * Used Sigmoid activation for output layer.
